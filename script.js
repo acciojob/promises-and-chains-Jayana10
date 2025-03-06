@@ -1,4 +1,3 @@
-//your JS code here. If required.
 document.addEventListener("DOMContentLoaded", () => {
     const ageInput = document.getElementById("age");
     const nameInput = document.getElementById("name");
@@ -29,6 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch((message) => {
             window.alert(message);
-        });
-    });
+        });
+    });
 });
